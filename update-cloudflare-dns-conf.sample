@@ -1,0 +1,22 @@
+##### Config
+
+## Which IP should be used for the record: internal/external
+## Internal interface will be chosen automaticly as a primary default interface
+what_ip="external"
+## DNS A record to be updated, you can separate multiple records by comma
+dns_record="petermac.com,wiki.petermac.com,www.petermac.com,lab.petermac.com"
+## Cloudflare's Zone ID, you can find this on the landing/overview page of your domain.
+zoneid="Available in the cloudflare summary page"
+## Cloudflare Zone API Token
+cloudflare_zone_api_token="Your unique token"
+## Use Cloudflare proxy on dns record true/false
+proxied="true"
+## 120-7200 in seconds or 1 for Auto
+ttl=120
+
+## Telegram Notifications yes/no (only sent if DNS is updated)
+notify_me_telegram="yes"
+## Telegram Chat ID
+telegram_chat_id="Telegram chat id"
+## Telegram Bot API Key
+telegram_bot_API_Token="Telegram bot token"

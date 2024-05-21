@@ -1,0 +1,9 @@
+##### Config
+## Update DNS Settings if an IP address change is identified
+update_dns="yes"
+## Telegram Notifications yes/no (only sent if IP is changed)
+notify_me_telegram="yes"
+## Telegram Chat ID
+telegram_chat_id="Chat Id for your bot"
+## Telegram Bot API Key
+telegram_bot_API_Token=Bot token"
